@@ -1,6 +1,6 @@
 # Scripts
 
-Setup ur environment to build a ROM
+Setup your environment to build an Android Custom ROM
 
 ## Clone setuptools : 
 
