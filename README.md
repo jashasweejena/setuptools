@@ -1,10 +1,12 @@
 # Scripts
+
 Setup ur environment to build a ROM
-Clone setuptools : 
+
+## Clone setuptools : 
 
 git clone https://github.com/techgeek99/setuptools/ -b master setuptools/
 
-Tyoe :  
+## Type :  
 
 chmod +x setuptools/setupenv.sh
 
