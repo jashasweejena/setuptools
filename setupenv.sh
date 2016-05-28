@@ -1,5 +1,6 @@
 red='tput setaf 1'              # Red
 green='tput setaf 2'            # Green
+txtbld=$(tput bold)             # Bold
 bldred=${txtbld}$(tput setaf 1) # Bold Red
 bldgrn=${txtbld}$(tput setaf 2) # Bold Green
 tput setaf 1
