@@ -6,7 +6,7 @@ bldgrn=${txtbld}$(tput setaf 2) # Bold Green
 tput setaf 1
 echo Cleaning Directories...
 tput setaf 2
-rm -rf device/yu/jalebi device/FireLord1/msm8916-common kernel/ vendor/yu
+rm -rf device/yu/ device/Cyanogen/msm8916-common kernel/ vendor/yu
 tput setaf 1
 echo Cloning Jalebi Device Tree
 tput setaf 2
