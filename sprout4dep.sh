@@ -18,7 +18,7 @@ git clone https://github.com/CyanogenMod/android_device_google_sprout-common -b 
 tput setaf 1
 echo Cloning MTK Sprout kernel
 tput setaf 2
-git clone ttps://github.com/CyanogenMod/android_kernel_mediatek_sprout -b cm-13.0 kernel/mediatek/sprout/
+git clone https://github.com/CyanogenMod/android_kernel_mediatek_sprout -b cm-13.0 kernel/mediatek/sprout/
 tput setaf 1
 echo Cloning Google Vendor
 tput setaf 2
