@@ -1,8 +1,6 @@
 red='tput setaf 1'              # Red
 green='tput setaf 2'            # Green
-txtbld=$(tput bold)             # Bold
-bldred=${txtbld}$(tput setaf 1) # Bold Red
-bldgrn=${txtbld}$(tput setaf 2) # Bold Green
+white='tput setaf 7'            # White
 tput setaf 1
 echo Cleaning Directories...
 tput setaf 2
@@ -23,8 +21,13 @@ tput setaf 1
 echo Cloning Jalebi Vendor
 tput setaf 2
 git clone https://github.com/FireLord1/android_vendor_yu_jalebi -b cm-13.0 vendor/yu/jalebi/
+tput setaf 1
 echo Cloning qcom common and sepolicy
+tput setaf 2
 rm -rf external/sepolicy device/qcom/sepolicy device/qcom/common
 git clone https://github.com/CyanogenMod/android_device_qcom_common -b cm-13.0 device/qcom/common
 git clone https://github.com/CyanogenMod/android_device_qcom_sepolicy -b cm-13.0 device/qcom/sepolicy
 git clone https://github.com/CyanogenMod/android_external_sepolicy -b cm-13.0 external/sepolicy
+tput setaf 1
+echo Cloning Done Now Enjoy XD
+tput setaf 7
