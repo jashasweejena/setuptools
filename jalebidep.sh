@@ -23,3 +23,8 @@ tput setaf 1
 echo Cloning Jalebi Vendor
 tput setaf 2
 git clone https://github.com/FireLord1/android_vendor_yu_jalebi -b cm-13.0 vendor/yu/jalebi/
+echo Cloning qcom common and sepolicy
+rm -rf external/sepolicy device/qcom/sepolicy device/qcom/common
+git clone https://github.com/CyanogenMod/android_device_qcom_common -b cm-13.0 device/qcom/common
+git clone https://github.com/CyanogenMod/android_device_qcom_sepolicy -b cm-13.0 device/qcom/sepolicy
+git clone https://github.com/CyanogenMod/android_external_sepolicy -b cm-13.0 external/sepolicy
