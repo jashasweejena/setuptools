@@ -1,8 +1,6 @@
 red='tput setaf 1'              # Red
 green='tput setaf 2'            # Green
-txtbld=$(tput bold)             # Bold
-bldred=${txtbld}$(tput setaf 1) # Bold Red
-bldgrn=${txtbld}$(tput setaf 2) # Bold Green
+white='tput setaf 7'            # White
 tput setaf 1
 echo Setting Up Build Environment
 tput setaf 2
@@ -17,3 +15,4 @@ mkdir -p ~/android/system
 tput setaf 1
 echo Build Environment Ready
 echo Start Your Build and Enjoy 
+tput setaf 7
