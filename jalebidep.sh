@@ -24,10 +24,9 @@ git clone https://github.com/FireLord1/android_vendor_yu_jalebi -b cm-13.0 vendo
 tput setaf 1
 echo Cloning qcom common and sepolicy
 tput setaf 2
-rm -rf external/sepolicy device/qcom/sepolicy device/qcom/common
+rm -rf device/qcom/sepolicy device/qcom/common
 git clone https://github.com/CyanogenMod/android_device_qcom_common -b cm-13.0 device/qcom/common
 git clone https://github.com/CyanogenMod/android_device_qcom_sepolicy -b cm-13.0 device/qcom/sepolicy
-git clone https://github.com/CyanogenMod/android_external_sepolicy -b cm-13.0 external/sepolicy
 tput setaf 1
 echo Cloning Done Now Enjoy XD
 tput setaf 7
