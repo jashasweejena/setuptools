@@ -8,7 +8,7 @@ rm -rf device/yu/ device/Cyanogen/msm8916-common kernel/ vendor/yu
 tput setaf 1
 echo Cloning Jalebi Device Tree
 tput setaf 2
-git clone https://github.com/FireLord1/android_device_yu_jalebi -b cm-13.0 device/yu/jalebi/
+git clone https://github.com/satyabrat-me/android_device_yu_jalebi -b orion device/yu/jalebi/
 tput setaf 1
 echo Cloning msm8916 common
 tput setaf 2
@@ -16,7 +16,7 @@ git clone https://github.com/FireLord1/android_device_cyanogen_msm8916-common -b
 tput setaf 1
 echo Cloning msm8916 kernel
 tput setaf 2
-git clone https://github.com/FireLord1/android_kernel_cyanogen_msm8916 -b cm-13.0 kernel/cyanogen/msm8916/
+git clone https://github.com/satyabrat-me/android_kernel_cyanogen_msm8916 -b mkm kernel/cyanogen/msm8916/
 tput setaf 1
 echo Cloning Jalebi Vendor
 tput setaf 2
