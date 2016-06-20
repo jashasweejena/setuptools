@@ -12,15 +12,15 @@ git clone https://github.com/satyabrat-me/android_device_yu_jalebi -b cm-13.0 de
 tput setaf 1
 echo Cloning msm8916 common
 tput setaf 2
-git clone https://github.com/FireLord1/android_device_cyanogen_msm8916-common -b cm-13.0 device/cyanogen/msm8916-common/
+git clone https://github.com/CyanogenMod/android_device_cyanogen_msm8916-common -b cm-13.0 device/cyanogen/msm8916-common/
 tput setaf 1
 echo Cloning msm8916 kernel
 tput setaf 2
-https://github.com/satyabrat-me/android_kernel_cyanogen_msm8916 -b master kernel/cyanogen/msm8916/
+git clone https://github.com/satyabrat-me/android_kernel_cyanogen_msm8916 -b master kernel/cyanogen/msm8916/
 tput setaf 1
 echo Cloning Jalebi Vendor
 tput setaf 2
-https://github.com/satyabrat-me/proprietary_vendor_yu_jalebi -b cm-13.0 vendor/yu/jalebi/
+git clone https://github.com/satyabrat-me/proprietary_vendor_yu_jalebi -b cm-13.0 vendor/yu/jalebi/
 
 #tput setaf 1
 #echo Cloning qcom common and sepolicy
