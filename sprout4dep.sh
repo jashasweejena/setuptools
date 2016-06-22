@@ -6,7 +6,7 @@ bldgrn=${txtbld}$(tput setaf 2) # Bold Green
 tput setaf 1
 echo Cleaning Directories...
 tput setaf 2
-rm -rf device/google/sprout4 device/google/sprout-common kernel/ vendor/sprout
+rm -rf device/yu/ device/google/sprout4 device/google/sprout-common device/Cyanogen/msm8916-common kernel/ vendor/yu vendor/google
 tput setaf 1
 echo Cloning Sprout4 Device Tree
 tput setaf 2
