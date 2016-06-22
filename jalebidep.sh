@@ -2,7 +2,7 @@ green='tput setaf 2'            # Green
 white='tput setaf 7'            # White
 tput setaf 2
 echo Cleaning Directories...
-rm -rf device/yu/ device/google/sprout4 device/google/sprout-common device/Cyanogen/msm8916-common kernel/ vendor/yu vendor/google
+rm -rf device/yu/ device/google/sprout4 device/google/sprout-common device/cyanogen/msm8916-common kernel/ vendor/yu vendor/google
 echo Cloning Jalebi Stuffs
 git clone https://github.com/CyanogenMod/android_device_cyanogen_msm8916-common -b cm-13.0 device/cyanogen/msm8916-common
 git clone https://github.com/CyanogenMod/android_device_yu_jalebi -b cm-13.0 device/yu/jalebi
