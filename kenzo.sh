@@ -2,7 +2,7 @@ green='tput setaf 2'            # Green
 white='tput setaf 7'            # White
 tput setaf 2
 echo Cleaning Directories...
-echo Cloning Jalebi Stuffs
+echo Cloning Kenzo Stuffs
 git clone https://github.com/TheStrix/android_device_xiaomi_kenzo.git -b cm-13.0 device/xiaomi/kenzo
 git clone https://github.com/TheStrix/proprietary_vendor_xiaomi.git -b cm-13.0 vendor/xiaomi/kenzo
 git clone https://github.com/TheStrix/android_kernel_xiaomi_msm8956.git -b master kernel/xiaomi/msm8956
