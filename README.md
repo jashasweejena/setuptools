@@ -4,7 +4,7 @@ Setup your environment to build an Android Custom ROM
 
 ## Clone setuptools : 
 
-git clone https://github.com/techgeek99/android_build_setuptools.git -b master setuptools/
+git clone https://github.com/jashaswee/android_build_setuptools.git setuptools/
 
 ## Type :  
 
