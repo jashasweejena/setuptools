@@ -1,4 +1,4 @@
-green='tput setaf 2'            # Green
+red='tput setaf 2'            # Green
 white='tput setaf 7'            # White
 tput setaf 2
 echo Cleaning Directories...
